@@ -1,0 +1,149 @@
+body {
+    background-color: #EFF1FA;
+    margin-top: 40px;
+    width: 1440px;
+    margin: 40px auto 0 auto;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #0A3871;
+}
+
+.input-datos {
+    position: absolute;
+    width: 800px;
+    left: 240px;
+}
+
+#input {
+    background-color: #EFF1FA;
+    height: 600px;
+    width: 600px;
+    border: none;
+    font-size: 32px;
+    color: #0A3871;
+    padding: 10px;
+}
+
+.solo-letras {
+    display: flex;
+}
+
+.solo-letras img {
+    height: 16px;
+}
+
+.solo-letras p {
+    font-size: 12px;
+    margin: 3px 0 16px  5px;
+    color: #495057;
+}
+
+.output-datos {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    background-color: #ffffff;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.antes-encriptar p:first-of-type {
+    color: #343A40;
+    font-weight: bold;
+    font-size: 24px;
+    width: 336px;
+    text-align: center;
+}
+
+.antes-encriptar h4 {
+    color: #495057;
+    font-size: 16px;
+    width: 336px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+button {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.boton-encriptar {
+    background: #0A3871;
+    color: #FFFFFF;
+    position: absolute;
+    top: 745px;
+    left: 0px;
+    transition: .5s;
+}
+
+.boton-encriptar:hover {
+    background: #466c9a;
+    font-weight: bold;
+}
+
+.boton-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    margin-left: 24px;
+    position: absolute;
+    top: 745px;
+    left: 352px;
+    transition: .5s;
+}
+
+.boton-desencriptar:hover {
+    background: #6895cc;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.boton-copiar {
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    position: absolute;
+    top: 790px;
+    left: 38px;
+    background-color: #ffffff;
+    transition: .5s;
+}
+
+.boton-copiar:hover {
+    background: #6895cc;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#output {
+    height: 850px;
+    width: 370px;
+    border: none;
+    font-size: 24px;
+    color: #495057;
+    padding: 10px;
+}
+
+.despues-encriptar {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    top: 90vh;
+    left: 350px;
+    font-weight: 700;
+    font-style: italic;
+}
