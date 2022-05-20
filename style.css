@@ -49,7 +49,7 @@ h1 {
     top: 40px;
     left: 1000px;
     background-color: #ffffff;
-    height: 900px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +84,7 @@ button {
     background: #0A3871;
     color: #FFFFFF;
     position: absolute;
-    top: 745px;
+    top: 670px;
     left: 0px;
     transition: .5s;
 }
@@ -100,7 +100,7 @@ button {
     color: #0A3871;
     margin-left: 24px;
     position: absolute;
-    top: 745px;
+    top: 670px;
     left: 352px;
     transition: .5s;
 }
@@ -115,7 +115,7 @@ button {
     color: #0A3871;
     border: 1px solid #0A3871;
     position: absolute;
-    top: 790px;
+    top: 715px;
     left: 38px;
     background-color: #ffffff;
     transition: .5s;
@@ -128,7 +128,7 @@ button {
 }
 
 #output {
-    height: 850px;
+    height: 750px;
     width: 370px;
     border: none;
     font-size: 24px;
